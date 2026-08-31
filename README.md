@@ -8,9 +8,14 @@
 
 ## 발행
 
-    python3 sellran_weekly.py --week 35     # briefs/ 에 한국어·일본어 리포트 생성
-    python3 sellran_publish.py --commit     # site/ 갱신 후 커밋
+    python3 sellran_weekly.py --week 35     # 리포트 한/일 + 카드 데이터 생성
+    python3 sellran_publish.py --commit     # OG 카드 렌더 · site/ 갱신 · 커밋
     git -C site push
+
+카드는 site/og/<주차>.png 가 없을 때만 자동으로 그린다.
+다시 그리려면 그 파일들을 지우고 publish 를 돌리거나, 직접 실행한다.
+
+    python3 sellran_card.py --week 35
 
 ## 최초 1회 설정
 
@@ -35,4 +40,15 @@
     site/w/YYYY-Www.html 주간 리포트
     site/og/YYYY-Www.png 링크 프리뷰 이미지 1200×630
     site/og/*_sq.png     페이스북 직접 업로드용 1080×1080
-    site/og/YYYY-Www.json  OG 제목·설명 수동 지정 (없으면 본문에서 자동 추출)
+    site/og/YYYY-Www.json  OG·카드 문구 직접 지정 (없으면 자동 산출값을 씀)
+    briefs/card_YYYY-Www.json  카드용 자동 산출 데이터 (상승·하락 5개, 요인, 연차, 지표)
+
+## 카드 문구 바꾸기
+
+site/og/<주차>.json 에 아래 키를 넣으면 자동 산출값을 덮어쓴다.
+넣지 않은 키는 자동값이 그대로 쓰인다.
+
+    ko.title / ja.title   헤드라인 (OG 제목과 공유)
+    ko.desc  / ja.desc    전문 (OG 설명과 공유)
+    note                  하단 주석 {"ko": ..., "ja": ...}
+    rows                  표에 넣을 타이틀을 직접 고를 때
