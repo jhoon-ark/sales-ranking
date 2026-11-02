@@ -1,0 +1,39 @@
+{
+ "_설명": "W44 OG — 몬스터 헌터 아웃랜더스 메인 (사용자 지정 2026-11-02: 텐센트 계열 퍼블리싱 브랜드가 대형 IP를 론칭시킨 것이 큰 뉴스).",
+ "lead": [
+  "6444520814"
+ ],
+ "kicker": {
+  "ko": "이번 주 신작",
+  "ja": "今週の新作"
+ },
+ "headline": {
+  "ko": "몬스터 헌터 아웃랜더스",
+  "ja": "モンハンアウトランダーズ"
+ },
+ "ko": {
+  "title": "텐센트 계열 Level Infinite의 『몬스터 헌터』 신작, 출시 나흘 만에 일본 매출 1위",
+  "desc": "TiMi 개발 · 텐센트의 해외 퍼블리싱 브랜드 Level Infinite. 10/29 서비스 시작 당일 4위, 10/30 3위, 11/1 16시 수집에서 1위. 일요일 대표순위는 eFootball과 같은 2위(4회 중 2회 1위). TOP10 신규 진입 6개"
+ },
+ "ja": {
+  "title": "テンセント系Level Infiniteの『モンハン』新作、リリース4日で日本売上首位",
+  "desc": "開発TiMi・テンセントの海外パブリッシングブランドLevel Infinite。10/29のサービス開始当日に4位、10/30に3位、11/1の16時収集で首位。日曜の代表順位はeFootballと並ぶ2位（4回中2回首位）。TOP10新規入り6タイトル"
+ },
+ "sources": [
+  {
+   "claim": "Level Infinite",
+   "src": "Level Infinite = Tencent Games의 글로벌 퍼블리싱 브랜드 (Gematsu 2021-12)",
+   "link": "https://gematsu.com/2021/12/tencent-games-establishes-high-quality-games-brand-level-infinite"
+  },
+  {
+   "claim": "TiMi 개발",
+   "src": "gamebiz 10/29 「TiMi Studio Group、『モンスターハンターアウトランダーズ』を配信開始」",
+   "link": "https://gamebiz.jp/news/434773"
+  },
+  {
+   "claim": "開発TiMi",
+   "src": "gamebiz 10/29",
+   "link": "https://gamebiz.jp/news/434773"
+  }
+ ]
+}
