@@ -1,0 +1,35 @@
+{
+ "_설명": "W45 OG — 텐센트 Level Infinite 1·2위 독점 (사용자 지정 2026-11-09).",
+ "lead": [
+  "1585915174",
+  "6444520814"
+ ],
+ "kicker": {
+  "ko": "이번 주 1·2위",
+  "ja": "今週の1・2位"
+ },
+ "headline": {
+  "ko": "텐센트 Level Infinite, 1·2위 독점",
+  "ja": "Level Infiniteが1・2位を独占"
+ },
+ "ko": {
+  "title": "텐센트 Level Infinite, 일본 매출 1·2위 독점 — 니케 4주년 1위, 몬스터 헌터 아웃랜더스 2위",
+  "desc": "승리의 여신: 니케 8위 → 1위(4주년, 11/5 신규 SSR 「紅蓮：神殺」 등장일 16시부터 1위). 몬스터 헌터 아웃랜더스는 출시 2주 차에도 2위. 두 타이틀 모두 텐센트의 해외 퍼블리싱 브랜드 Level Infinite. TOP10 신규 진입 3개"
+ },
+ "ja": {
+  "title": "テンセントLevel Infinite、日本売上1・2位を独占 — NIKKE 4周年で首位、モンハンアウトランダーズ2位",
+  "desc": "勝利の女神：NIKKE 8位 → 首位（4周年、11/5の新SSR「紅蓮：神殺」登場日16時から首位）。モンハンアウトランダーズはリリース2週目も2位。いずれもテンセントの海外パブリッシングブランドLevel Infinite。TOP10新規入り3タイトル"
+ },
+ "sources": [
+  {
+   "claim": "Level Infinite",
+   "src": "Level Infinite = Tencent Games의 글로벌 퍼블리싱 브랜드 (Gematsu 2021-12)",
+   "link": "https://gematsu.com/2021/12/tencent-games-establishes-high-quality-games-brand-level-infinite"
+  },
+  {
+   "claim": "4周年で首位",
+   "src": "gamebiz App Store(11/6) 「4周年の『勝利の女神：NIKKE』が首位」",
+   "link": "https://gamebiz.jp/news/435138"
+  }
+ ]
+}
